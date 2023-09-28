@@ -24,7 +24,7 @@ p {
 
 .header {
     background-image: url("../img/BG-header.jpg");
-    background-position: 100% 100%;
+    /*background-position: 100% 100%;*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -67,6 +67,7 @@ p {
 
 .header__title {
     margin: 180px 410px 350px 960px;
+    /*margin: auto;*/
 }
 
 .header__title_h {
@@ -153,6 +154,12 @@ p {
     color: #FFFFFF;
     font-size: 16px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!*/
+.EXPERIMENT {
+    padding-bottom: 200px;
+}
+
 
 /*section_two*/
 

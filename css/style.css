@@ -199,6 +199,34 @@ p {
     padding: 8px 52px;
 }
 
+/*section_three*/
+
+.section-three {
+    margin-top: 250px;
+    display: grid;
+}
+
+.section-three__container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section-three__container_two > a {
+    color: red;
+}
+
+.section-three__container_three {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.section-three__container_three > a{
+    color: #6D7D7D;
+}
+
 /*section_four*/
 
 .section-four {

@@ -283,3 +283,25 @@ div > a {
     display: flex;
     justify-content: center;
 }
+
+/*section_six*/
+
+.section-six {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262b2b;
+}
+.section-six__container {
+    margin: auto;
+}
+
+.section-six__wrapper_one {
+
+}
+
+.section-six__wrapper_two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

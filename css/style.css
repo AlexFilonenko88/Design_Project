@@ -297,11 +297,33 @@ div > a {
     margin: auto;
 }
 
-.section-six__wrapper_one {
-
-}
-
 .section-six__wrapper_two {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+/*footer*/
+
+.footer {
+    display: grid;
+}
+
+.footer__container {
+    margin: auto;
+}
+
+.footer__container > div {
+    background-color: #131616
+}
+
+.footer__container_one {
+    display: flex;
+}
+
+.footer__container_two {
+    display: flex;
+}
+
+.footer__container_three {
+    display: flex;
 }

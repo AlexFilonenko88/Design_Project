@@ -5,11 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/style.css">
+
+    <?php
+    $time = date("H:i:s");
+
+    if($time >= 08.00 || $time <= 20.00) {
+        echo '<link rel="stylesheet" href="../css/style_daylight.css">';
+    }else {
+        echo '<link rel="stylesheet" href="../css/style_night.css">';
+    };
+    ?>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Nunito&display=swap" rel="stylesheet">
     <title>Design</title>
+
 </head>
 <body>
     <header class="header">
@@ -99,14 +110,16 @@
                 <img src="../img/section-three-team3.jpg" alt="">
                 <a href="#">LEARN TEAMS</a>
             </div>
-            <div  class="section-three__container_three">
-                <img src="../img/section-three-company-1.svg" width="40" height="40" alt="">
-                <a href="">Sparta .Inc</a>
-                <img src="../img/section-three-company-2.svg" width="40" height="40" alt="">
-                <a href="">Allianzy</a>
-                <a href="">Reys Ceramics</a>
-                <img src="../img/section-three-company-3.svg" width="40" height="40" alt="">
-                <a href="">Fuda Furniture</a>
+            <div class="section-three__container_three">
+                <div  class="section-three__container__three_link">
+                    <img src="../img/section-three-company-1.svg" width="40" height="40" alt="">
+                    <a href="">Sparta .Inc</a>
+                    <img src="../img/section-three-company-2.svg" width="40" height="40" alt="">
+                    <a href="">Allianzy</a>
+                    <a href="">Reys Ceramics</a>
+                    <img src="../img/section-three-company-3.svg" width="40" height="40" alt="">
+                    <a href="">Fuda Furniture</a>
+                </div>
             </div>
         </div>
     </section>
@@ -172,10 +185,12 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="section-six__wrapper_tree">
             <span>Newsletter</span>
-            <input type="email" placeholder="Enter your email">
-            <button type="submit">SUBSCRIBE</button>
+            <form action="" method="">
+                <input name="email" type="email" placeholder="Enter your email">
+                <button type="submit">SUBSCRIBE</button>
+            </form>
         </div>
     </section>
     <footer class="footer">
@@ -186,24 +201,24 @@
                 <a class="" href="#">services</a>
                 <a class="" href="#">team</a>
                 <a class="" href="#">blog</a>
-                <a class="" href="#">GET STARTED</a>
-                <a href="#">INTERIA</a>
+                <a class="footer__container__one_link" href="#">contact</a>
+                <a class="footer__container__one_linktwo" href="#">INTERIA</a>
             </div>
             <div class="footer__container_two">
-                <div>
+                <div class="footer__container__two_image">
                     <img src="../img/facebook-f.svg" alt="facebook">
                     <img src="../img/twitter.svg" alt="twitter">
                     <img src="../img/linkedin-in.svg" alt="linkedin">
                     <img src="../img/instagram.svg" alt="instagram">
                 </div>
-                <div>
+                <div class="footer__container__two_paragraph">
                     <p>Posuere urna nec tincidunt praesent egestas maecenas pharetra convallis posuere ipsum nunc.</p>
                 </div>
             </div>
             <div class="footer__container_three">
-                <span>© Copyright by AltDesain-Studio – All right reserved.</span>
-                <a href="">TERMS</a>
-                <a href="">PRIVACY</a>
+                <span class="footer__container__three_span">© Copyright by AltDesain-Studio – All right reserved.</span>
+                <a class="footer__container__three_one" href="">TERMS</a>
+                <a class="footer__container__three_two" href="">PRIVACY</a>
             </div>
         </div>
     </footer>

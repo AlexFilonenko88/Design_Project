@@ -101,10 +101,6 @@ p {
 }
 
 .section-one__wrapper {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
     display: grid;
     justify-content: center;
 }
@@ -185,8 +181,6 @@ p {
     font-size: 40px;
     white-space: normal;
     padding-top: 61px;
-    /*word-wrap: break-word;*/
-    /*word-break: break-word;*/
     width: 520px;
 }
 
@@ -217,13 +211,19 @@ p {
 }
 
 .section-three__container_three {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /*display: grid;*/
     /*justify-content: center;*/
     /*align-items: center;*/
 }
 
-.section-three__container_three > a{
+.section-three__container__three_link {
+    display: grid;
+    /*margin: auto;*/
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.section-three__container__three_link > a{
     color: #6D7D7D;
 }
 
@@ -302,28 +302,65 @@ div > a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.section-six__wrapper_tree {
+    display: flex;
+}
+
 /*footer*/
 
 .footer {
     display: grid;
+    background-color: #131616
 }
 
 .footer__container {
     margin: auto;
-}
-
-.footer__container > div {
-    background-color: #131616
+    margin-top: 130px;
 }
 
 .footer__container_one {
     display: flex;
+    justify-content: space-between;
+}
+
+.footer__container_one > a {
+    margin-right: 55px;
+}
+
+.footer__container__one_linktwo {
+    margin-right: 0px;
+}
+
+.footer__container_one > .footer__container__one_link{
+    margin-right: 500px;
 }
 
 .footer__container_two {
     display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footer__container__two_image {
+    margin-right: 450px;
 }
 
 .footer__container_three {
     display: flex;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.footer__container_three > span {
+    color: #ffffff;
+}
+
+.footer__container__three_span {
+    margin-right: 485px;
+}
+
+.footer__container__three_one {
+    margin-right: 92px;
 }

@@ -110,16 +110,16 @@
                 <img src="../img/section-three-team3.jpg" alt="">
                 <a href="#">LEARN TEAMS</a>
             </div>
-            <div class="section-three__container_three">
-                <div  class="section-three__container__three_link">
-                    <img src="../img/section-three-company-1.svg" width="40" height="40" alt="">
-                    <a href="">Sparta .Inc</a>
-                    <img src="../img/section-three-company-2.svg" width="40" height="40" alt="">
-                    <a href="">Allianzy</a>
-                    <a href="">Reys Ceramics</a>
-                    <img src="../img/section-three-company-3.svg" width="40" height="40" alt="">
-                    <a href="">Fuda Furniture</a>
-                </div>
+        </div>
+        <div class="section-three__container_three">
+            <div  class="section-three__container__three_link">
+                <img src="../img/section-three-company-1.svg" width="40" height="40" alt="">
+                <a href="">Sparta .Inc</a>
+                <img src="../img/section-three-company-2.svg" width="40" height="40" alt="">
+                <a href="">Allianzy</a>
+                <a href="">Reys Ceramics</a>
+                <img src="../img/section-three-company-3.svg" width="40" height="40" alt="">
+                <a href="">Fuda Furniture</a>
             </div>
         </div>
     </section>

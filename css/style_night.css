@@ -196,7 +196,7 @@ p {
 /*section_three*/
 
 .section-three {
-    margin-top: 250px;
+    padding-top: 250px;
     display: grid;
     background-color: #00FFFF;
 }
@@ -211,17 +211,9 @@ p {
     color: red;
 }
 
-.section-three__container_three {
-    /*display: grid;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-}
-
 .section-three__container__three_link {
     display: grid;
-    /*margin: auto;*/
     grid-template-columns: repeat(4, 1fr);
-
 }
 
 .section-three__container__three_link > a{

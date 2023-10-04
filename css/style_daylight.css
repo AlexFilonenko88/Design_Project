@@ -196,8 +196,8 @@ p {
 /*section_three*/
 
 .section-three {
-    margin-top: 250px;
     display: grid;
+    padding-top: 250px;
 }
 
 .section-three__container {
@@ -211,15 +211,16 @@ p {
 }
 
 .section-three__container_three {
-    /*display: grid;*/
+    display: grid;
     /*justify-content: center;*/
-    /*align-items: center;*/
+    align-items: center;
 }
 
 .section-three__container__three_link {
     display: grid;
-    /*margin: auto;*/
     grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-left: 105px
 
 }
 

@@ -169,7 +169,7 @@ p {
     grid-template-columns: repeat(2, auto);
     gap: 150px;
     margin: auto;
-    background-color: #212828;
+    background-color: #87CEFA;
     border-top-left-radius: 25px;
     position: absolute;
     top: -150px; left: 500px;
@@ -226,7 +226,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #191D1D;
+    background-color: #FF00FF;
  }
 
 .section-four__item {
@@ -284,7 +284,7 @@ div > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FF00FF;
+    background-color: #FFFF00;
 }
 .section-six__container {
     margin: auto;

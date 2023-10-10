@@ -24,9 +24,9 @@ p {
 
 .header {
     background-image: url("../img/BG-header.jpg");
-    /*background-position: 100% 100%;*/
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
+
 }
 
 .header__link {
@@ -66,8 +66,7 @@ p {
 }
 
 .header__title {
-    margin: 180px 410px 350px 960px;
-    /*margin: auto;*/
+    margin: 180px 410px 50px 960px;
 }
 
 .header__title_h {
@@ -301,10 +300,20 @@ div > a {
 .section-six__wrapper_two {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+
+.section-six__wrapper_wrap > p {
+    margin-top: 35px;
+}
+
+.section-six__wrapper_wrap > a {
+    margin-top: 35px;
 }
 
 .section-six__wrapper_tree {
     display: flex;
+    margin: 75px 0 75px 0;
 }
 
 /*footer*/

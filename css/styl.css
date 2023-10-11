@@ -169,10 +169,14 @@ p {
     gap: 150px;
     margin: auto;
     background-color: #212828;
-    border-top-left-radius: 25px;
+    border-radius: 50px;
     position: absolute;
     top: -150px; left: 500px;
 
+}
+
+.section-two__image {
+    border-radius: 50px;
 }
 
 .section-two__wrapper_title {
@@ -313,12 +317,28 @@ div > a {
 
 .section-six__wrapper_tree {
     display: flex;
+    align-items: baseline;
     margin: 75px 0 75px 0;
+}
+
+.section-six__wrapper_tree > span {
+    font-family: Kanit, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
 }
 
 .section-six__link {
     display: flex;
     align-items: baseline;
+}
+
+.section-six__wrapper_form > button {
+    padding: 8px 47px;
+    border-radius: 50px;
+    background-color: #262b2b;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    border: solid #FFFFFF 1px;
 }
 
 /*footer*/

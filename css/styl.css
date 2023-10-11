@@ -316,6 +316,11 @@ div > a {
     margin: 75px 0 75px 0;
 }
 
+.section-six__link {
+    display: flex;
+    align-items: baseline;
+}
+
 /*footer*/
 
 .footer {

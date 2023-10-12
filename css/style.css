@@ -332,7 +332,21 @@ div > a {
     align-items: baseline;
 }
 
-.section-six__wrapper_form > button {
+.section-six__wrapper__form_input {
+    background-color: #262b2b;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: #FFFFFF;
+    width: 610px;
+}
+
+.section-six__wrapper_form {
+    margin-left: 130px;
+}
+
+.section-six__wrapper__form_button {
+    margin-left: 25px;
     padding: 8px 47px;
     border-radius: 50px;
     background-color: #262b2b;
@@ -362,6 +376,10 @@ div > a {
     margin-right: 55px;
 }
 
+.footer__container_one > a:last-child {
+    margin-right: 0;
+}
+
 .footer__container__one_linktwo {
     margin-right: 0px;
 }
@@ -378,6 +396,10 @@ div > a {
 
 .footer__container__two_image {
     margin-right: 450px;
+}
+
+.footer__container__two_image > img {
+    margin-right: 20px;
 }
 
 .footer__container_three {

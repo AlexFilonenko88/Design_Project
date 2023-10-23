@@ -482,10 +482,17 @@ div > a {
     border-left: none;
     border-top: none;
     border-right: none;
-    border-bottom-color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
     width: 610px;
+    padding-bottom: 8px;
+
 }
 
+.section-six__wrapper__form_input::placeholder {
+    font-size: 16px;
+    font-family: Nunito, sans-serif;
+    color: #FFFFFF;
+}
 .section-six__wrapper_form {
     margin-left: 130px;
 }
